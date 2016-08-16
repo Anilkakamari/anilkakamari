@@ -1,0 +1,102 @@
+/* line 1, ../sass/partials/_content.scss */
+body {
+  background: url(../images/bg.jpg);
+}
+
+/* line 9, ../sass/partials/_content.scss */
+.vertical-top {
+  margin-top: 50px;
+}
+
+/* line 13, ../sass/partials/_content.scss */
+.panel {
+  box-shadow: 0px 0px 15px #1a1a1a;
+  background-color: #1F1F1F;
+}
+/* line 17, ../sass/partials/_content.scss */
+.panel .panel-heading {
+  border-bottom: 1px solid #0d0d0d;
+  padding-top: 0px !important;
+  padding-bottom: 0px !important;
+  background-color: #121212;
+}
+/* line 23, ../sass/partials/_content.scss */
+.panel .panel-heading .responsive-image {
+  margin: auto;
+  height: auto;
+  display: block;
+  max-width: 100%;
+}
+
+/* line 33, ../sass/partials/_content.scss */
+.mail-result {
+  text-align: center;
+  font-size: 15px;
+  padding: 4px;
+  border-radius: 4px;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+/* line 43, ../sass/partials/_content.scss */
+.success {
+  background-color: #58AE05;
+  color: #173000;
+}
+
+/* line 48, ../sass/partials/_content.scss */
+.failure {
+  background-color: #BC0002;
+  color: #370E00;
+}
+
+/* line 55, ../sass/partials/_content.scss */
+.form-contact .input-group {
+  margin-bottom: 10px;
+}
+/* line 60, ../sass/partials/_content.scss */
+.form-contact .input-group-addon {
+  border-left: none !important;
+  background-color: black !important;
+  border-color: #111111;
+  z-index: 11111;
+  color: #00F1D9;
+}
+/* line 68, ../sass/partials/_content.scss */
+.form-contact .input-group-focus .input-group-addon {
+  border: 1px solid #5B9BCD !important;
+  border-right: none !important;
+  box-shadow: 0 0 3px #5B9BCD;
+  text-shadow: 0 0 3px #00F1D9;
+  transition: border-color 0.15s ease-in-out 0s, box-shadow 0.15s ease-in-out 0s !important;
+}
+/* line 76, ../sass/partials/_content.scss */
+.form-contact input {
+  border-left: none !important;
+  color: #00F1D9;
+  height: 40px;
+  background-color: #141414;
+  border-color: #141414;
+  box-shadow: inset 1px 1px 2px #0c0c0c;
+}
+/* line 85, ../sass/partials/_content.scss */
+.form-contact textarea {
+  color: #00F1D9;
+  border-left: none !important;
+  margin-bottom: 20px;
+  resize: none;
+  background-color: #141414;
+  border-color: #141414;
+  box-shadow: inset 1px 1px 2px #0c0c0c;
+}
+/* line 96, ../sass/partials/_content.scss */
+.form-contact input[type="submit"] {
+  border-color: #42E18A;
+  color: #121212;
+  background-color: #42E18A;
+  box-shadow: 0px 0px 8px #30de7f;
+}
+/* line 101, ../sass/partials/_content.scss */
+.form-contact input[type="submit"]:hover {
+  box-shadow: inset 0px 0px 4px #35df82;
+}
